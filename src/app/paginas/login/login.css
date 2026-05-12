@@ -1,0 +1,33 @@
+.login-container{
+    min-height: 90vh ; /* --- tendra una altura minima --- */
+    display: flex; /* --- ordenar elementos --- */
+    justify-content: center; /* --- centra horizontalmente --- */
+    align-items: center; /* --- centra verticalmente --- */
+}
+.login-pass{
+    width: 350px; /* --- ancho --- */
+    text-align: center; /* --- centra el texto --- */
+
+}
+#loginForm{
+    display: flex; /* --- ordenar elementos --- */
+    flex-direction: column; /* --- le da una direcciona a las casillas --- */
+    gap: 15px; /* --- le da espacio entre seccion --- */
+}
+#loginForm button{
+    padding: 10px; /* --- sepra el contenido cone l borde del elemento --- */
+    border: none;  /* --- quita el borde al elemento --- */
+    border-radius: 8px; /* --- sirve para redondear las equinas --- */
+    background-color: #2e8b57; /* --- cambia el color del fondo de un elemento --- */
+    color: white; /* --- cambia el color de la letra --- */
+    font-weight: bold; /* --- pone el texto en negritra --- */
+    cursor: pointer; /* --- cambia el icono del cursor por pasa por encima --- */
+}
+#loginForm input{
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    background-color:darkgrey;
+}
