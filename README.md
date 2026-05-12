@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Veterinaria
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.10.
@@ -57,3 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# mish
+trabajo ultimo
+>>>>>>> ab220e210cb842f9179be1d3d7f27e71467c47f7
