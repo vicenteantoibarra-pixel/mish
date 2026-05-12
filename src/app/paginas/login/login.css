@@ -1,0 +1,75 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.login-container{
+    min-height: 90vh ; /* --- tendra una altura minima --- */
+    display: flex; /* --- ordenar elementos --- */
+    justify-content: center; /* --- centra horizontalmente --- */
+    align-items: center; /* --- centra verticalmente --- */
+    width: 100%;
+    padding: 20px;
+}
+.login-pass{
+    width: 350px; /* --- ancho --- */
+    text-align: center; /* --- centra el texto --- */
+    width: 90%;
+    max-width: 350px;
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(241, 241, 190);
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+#loginForm{
+    display: flex; /* --- ordenar elementos --- */
+    flex-direction: column; /* --- le da una direcciona a las casillas --- */
+    gap: 15px; /* --- le da espacio entre seccion --- */
+}
+
+#loginForm button{
+    padding: 10px; /* --- sepra el contenido cone l borde del elemento --- */
+    border: none;  /* --- quita el borde al elemento --- */
+    border-radius: 8px; /* --- sirve para redondear las equinas --- */
+    background-color: #2e8b57; /* --- cambia el color del fondo de un elemento --- */
+    color: white; /* --- cambia el color de la letra --- */
+    font-weight: bold; /* --- pone el texto en negritra --- */
+    cursor: pointer; /* --- cambia el icono del cursor por pasa por encima --- */
+}
+
+#loginForm input{
+    border-radius:10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+}
+
+body{
+    background-color:rgb(241, 241, 190);
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-family:sans-serif; /* --- esto hace que el formato de letra cambie --- */
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(241, 241, 190);
+    max-width: 100%;
+    border: none;
+}
+.imagen{
+    position: fixed; /* --- Hace que la imagen quede fija en la pantalla */
+    top: 0;  /* --- Posiciona la imagen arriba del todo --- */
+    left: 0; /* --- posiciona la imagen a la izquierda --- */
+    width: 100%; /* --- hace que use todo el ancho de la pantalla --- */
+    height: 100vh; /* --- usa toda la aprte suoerior (vh = altura de la pantalla) --- */ 
+    object-fit: cover; /* se una para que la imagen use toda la pantalla sin deformarse */
+    z-index: -1; /* manda la imagen hacia atras */
+}
+
+
