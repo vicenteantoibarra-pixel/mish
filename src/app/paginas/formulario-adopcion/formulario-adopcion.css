@@ -1,0 +1,46 @@
+
+.contenedor {
+  min-height: 100vh;
+  background-color:#e8f5e9;
+  padding: 30px;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+.titulos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #2e7d5b;
+    color:white;
+    gap: 10px;
+    margin-bottom: 50px;
+    border: none;
+}
+
+#datos {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 20px;
+  max-width: 320px;
+  margin: auto;
+  border: none;
+  background-color:#2e7d5b;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#datos input {
+  border-radius: 20px;
+  padding: 6px;
+  width: 220px;
+  text-align: center;
+}
+#button{
+    cursor: pointer;
+}
+

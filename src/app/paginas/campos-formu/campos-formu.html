@@ -1,2 +1,42 @@
+<div class="body">
+    <div class="titulo">
+        <H1>Animales en adopcion disponibles</H1>
+    </div>
+    <div class="mascotas">
+        <select id="selectMascota" (change)="seleccionarMascota($event)">
+            <option>Seleccionar mascota</option>
+            <option value="Luna">Luna</option>
+            <option value="Milo">Milo</option>
+            <option value="Rocky">Rocky</option>
+            <option value="Nala">Nala</option>
+            <option value="Toby">Toby</option>
+            <option value="Kira">Kira</option>
+            <option value="Max">Max</option>
+            <option value="Pelusa">Pelusa</option>
+            <option value="Simba">Simba</option>
+            <option value="Canela">Canela</option>
+            <option value="Tom">Tom</option>
+            <option value="Maya">Maya</option>
+            <option value="Bruno">Bruno</option>
+            <option value="Copito">Copito</option>
+            <option value="Princesa">Princesa</option>
+        </select>
+        <input type="submit" placeholder="Seleccionar Mascota">
+    </div>
+     @if (!mascotaSeleccionada) {
+    <p class="mensaje">Selecciona una mascota para ver su información.</p>
+  }
 
+  @if (mascotaSeleccionada) {
+    <div class="info-mascota">
+      <h2>Información de la mascota</h2>
 
+      <p><strong>Nombre:</strong> {{ mascotaSeleccionada.nombre }}</p>
+      <p><strong>Especie:</strong> {{ mascotaSeleccionada.especie }}</p>
+      <p><strong>Edad:</strong> {{ mascotaSeleccionada.edad }}</p>
+      <p><strong>Sexo:</strong> {{ mascotaSeleccionada.sexo }}</p>
+      <p><strong>Tamaño:</strong> {{ mascotaSeleccionada.tamano }}</p>
+    </div>
+  }
+
+</div>
