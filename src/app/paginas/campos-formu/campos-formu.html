@@ -21,7 +21,7 @@
             <option value="Copito">Copito</option>
             <option value="Princesa">Princesa</option>
         </select>
-        <input type="submit" placeholder="Seleccionar Mascota">
+        <input type="submit" (click)="irSolicitudes()">
     </div>
      @if (!mascotaSeleccionada) {
     <p class="mensaje">Selecciona una mascota para ver su información.</p>
