@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 
 export class CamposFormu {
     mascotaSeleccionada: any = null;
+    
     mascotas = [{
       nombre: 'Luna',
       especie: 'perro',
